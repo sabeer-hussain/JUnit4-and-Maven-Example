@@ -5,13 +5,13 @@ node {
   }
 
   stage('build the packages') {
-    //mvn package
-    sh 'mvn package'
+    //mvn clean package
+    sh 'mvn clean package'
   }
 
    stage ('archival') {
      // archiving artifacts
-     archive 'target/*.jar'
+     archiveArtifacts 'target/*.jar'
    }
 
 }

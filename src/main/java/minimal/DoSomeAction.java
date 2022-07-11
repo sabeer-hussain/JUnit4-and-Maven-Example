@@ -6,5 +6,5 @@ package minimal;
  * @author Sascha Tayefeh
  */
 public class DoSomeAction {
-	String s = "Web Hooks Testing...";
+	String s = "Web hooks testing integration with jenkins...";
 }
